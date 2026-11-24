@@ -1,8 +1,16 @@
 import { FaqItem, Testimonial, WatchCategory, WatchProduct } from '../types/watch';
+import heroChronograph from '../assets/images/hero_chronograph_watch_1795523762466.jpg';
+import watchBalticBlue from '../assets/images/watch_baltic_blue_1795523763478.jpg';
+import watchBulovaChronograph from '../assets/images/watch_bulova_chronograph_1795523763915.jpg';
+import watchOrientSunburst from '../assets/images/watch_orient_sunburst_1795523763989.jpg';
+import watchSeikoDiver from '../assets/images/watch_seiko_diver_1795523762176.jpg';
+import watchTissotDress from '../assets/images/watch_tissot_dress_1795523763988.jpg';
+import watchTravelLeatherCase from '../assets/images/watch_travel_leather_case_1795523763413.jpg';
+import watchmakerInspectionBench from '../assets/images/watchmaker_inspection_bench_1795523764065.jpg';
 
-export const HERO_IMAGE = '/src/assets/images/hero_chronograph_watch_1795523762466.jpg';
-export const INSPECTION_IMAGE = '/src/assets/images/watchmaker_inspection_bench_1795523764065.jpg';
-export const TRAVEL_CASE_IMAGE = '/src/assets/images/watch_travel_leather_case_1795523763413.jpg';
+export const HERO_IMAGE = heroChronograph;
+export const INSPECTION_IMAGE = watchmakerInspectionBench;
+export const TRAVEL_CASE_IMAGE = watchTravelLeatherCase;
 
 export const WATCH_CATEGORIES: WatchCategory[] = [
   'All Watches',
@@ -23,7 +31,7 @@ export const WATCH_CATALOG: WatchProduct[] = [
     condition: 'New',
     movementType: 'Chronograph',
     price: 685,
-    image: '/src/assets/images/hero_chronograph_watch_1795523762466.jpg',
+    image: heroChronograph,
     straps: ['Brushed Steel Bracelet', 'Black Rally Calfskin'],
     badge: 'Collector Favorite',
     description:
@@ -47,7 +55,7 @@ export const WATCH_CATALOG: WatchProduct[] = [
     condition: 'New',
     movementType: 'Automatic',
     price: 740,
-    image: '/src/assets/images/watch_baltic_blue_1795523763478.jpg',
+    image: watchBalticBlue,
     straps: ['Cognac Bridle Leather', 'Beads of Rice Steel'],
     description:
       'French neo-vintage field-dress timepiece featuring a stepped sector dial, integrated recessed crown, and double-domed sapphire crystal.',
@@ -70,7 +78,7 @@ export const WATCH_CATALOG: WatchProduct[] = [
     condition: 'New',
     movementType: 'Automatic',
     price: 890,
-    image: '/src/assets/images/watch_seiko_diver_1795523762176.jpg',
+    image: watchSeikoDiver,
     straps: ['Oyster Stainless Bracelet', 'Vulcanized Black Rubber'],
     badge: 'In Stock',
     description:
@@ -95,7 +103,7 @@ export const WATCH_CATALOG: WatchProduct[] = [
     movementType: 'Automatic',
     price: 620,
     originalPrice: 795,
-    image: '/src/assets/images/watch_tissot_dress_1795523763988.jpg',
+    image: watchTissotDress,
     straps: ['Integrated Steel Bracelet', 'Midnight Alligator Grain'],
     badge: 'Certified Pre-Owned',
     description:
@@ -120,7 +128,7 @@ export const WATCH_CATALOG: WatchProduct[] = [
     movementType: 'Chronograph',
     price: 540,
     originalPrice: 690,
-    image: '/src/assets/images/watch_bulova_chronograph_1795523763915.jpg',
+    image: watchBulovaChronograph,
     straps: ['Perforated Black Rally Leather', 'Brushed Steel Link'],
     description:
       '1970s motorsport-inspired tri-compax chronograph with matte slate dial, brushed steel tachymeter bezel, and hand-stitched perforated calfskin.',
@@ -143,7 +151,7 @@ export const WATCH_CATALOG: WatchProduct[] = [
     condition: 'New',
     movementType: 'Automatic',
     price: 395,
-    image: '/src/assets/images/watch_orient_sunburst_1795523763989.jpg',
+    image: watchOrientSunburst,
     straps: ['Brushed Steel Bracelet', 'Espresso Horween Leather'],
     description:
       'In-house Japanese mechanical sport watch prized for its deep burgundy radial dial, faceted baton indices, and hacking seconds hand.',
@@ -166,7 +174,7 @@ export const WATCH_CATALOG: WatchProduct[] = [
     condition: 'New',
     movementType: 'Leather Craft',
     price: 145,
-    image: '/src/assets/images/watch_travel_leather_case_1795523763413.jpg',
+    image: watchTravelLeatherCase,
     straps: ['Espresso Full-Grain', 'Obsidian Matte Grain'],
     badge: 'Studio Edition',
     description:
@@ -190,7 +198,7 @@ export const WATCH_CATALOG: WatchProduct[] = [
     condition: 'Pre-Owned',
     movementType: 'Mechanical',
     price: 460,
-    image: '/src/assets/images/watchmaker_inspection_bench_1795523764065.jpg',
+    image: watchmakerInspectionBench,
     straps: ['Charcoal Calfskin', 'Milanese Steel Mesh'],
     description:
       'Hand-wound mechanical column-wheel chronograph with exhibition sapphire caseback displaying blued screws and swan-neck regulator.',
