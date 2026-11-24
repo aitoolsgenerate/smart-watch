@@ -1,0 +1,6 @@
+{
+  "name": "Ai Watches",
+  "description": "Authentic luxury, mechanical, and collector timepieces — new, pre-owned, and bespoke custom watch sourcing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
